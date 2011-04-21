@@ -17,7 +17,8 @@ set expandtab
 set nofoldenable
 set autoindent    	" always set autoindenting on
 set copyindent    	" copy the previous indentation on autoindenting
-set shiftwidth=4  	" number of spaces to use for autoindenting
+set sw=2 ts=2 sts=2 " number of spaces to use for autoindenting
+set textwidth=80
 set shiftround    	" use multiple of shiftwidth when indenting with '<' and '>'
 set showmatch     	" set show matching parenthesis
 set smartcase     	" ignore case if search pattern is all lowercase,
