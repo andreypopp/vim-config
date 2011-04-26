@@ -133,3 +133,5 @@ endif
 if filereadable($HOME.'/.vimrc.local')
     source ~/.vimrc.local
 endif
+
+au FileType python setl sw=4 sts=4 ts=4 et
