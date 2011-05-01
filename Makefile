@@ -7,7 +7,7 @@ install: bootstrap
 bootstrap:
 	git submodule init
 	git submodule update
-	$(foreach m,$(GIT_BUNDLES),(cd vim/bundle/$(m); git co master;);)
+	$(foreach m,$(GIT_BUNDLES),(cd vim/bundle/$(m); git checkout master;);)
 
 update:
 	git pull
