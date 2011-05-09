@@ -135,3 +135,6 @@ if filereadable($HOME.'/.vimrc.local')
 endif
 
 au FileType python setl sw=4 sts=4 ts=4 et
+
+nnoremap <F5> :GundoToggle<CR>
+let g:gundo_preview_bottom = 1
