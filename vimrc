@@ -138,3 +138,5 @@ au FileType python setl sw=4 sts=4 ts=4 et
 
 nnoremap <F5> :GundoToggle<CR>
 let g:gundo_preview_bottom = 1
+let g:gist_clip_command = 'pbcopy'
+let g:gist_private = 1
