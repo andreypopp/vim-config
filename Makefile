@@ -15,4 +15,4 @@ update:
 	git submodule foreach git submodule update
 	git submodule foreach git checkout master
 	git submodule foreach git pull origin master
-	@- git commit -a -m "Autocommit updates."
+	- git commit -a -m "Autocommit updates."
